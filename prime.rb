@@ -1,6 +1,8 @@
 # Add  code here!
-def prime?(number)
+def prime?(num)
   start = 2 
-  if number > 1 
-    range = (start...(num-1)).to_a 
+  if num > 1 
+    range = (start...num-1).to_a 
+    range.none? do |test_num|
+      
   
